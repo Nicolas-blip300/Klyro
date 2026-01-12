@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Klyro — Diseño & IA para Negocios</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
       margin: 0;
@@ -13,7 +14,7 @@
     }
 
     header {
-      padding: 80px 20px;
+      padding: 90px 20px;
       text-align: center;
       background: linear-gradient(180deg, #0b1120, #0f172a);
     }
@@ -24,7 +25,7 @@
     }
 
     header p {
-      font-size: 1.2rem;
+      font-size: 1.15rem;
       color: #d1d5db;
       max-width: 650px;
       margin: auto;
@@ -32,17 +33,17 @@
     }
 
     .cta {
-      margin-top: 35px;
+      margin-top: 40px;
     }
 
     .cta a {
       background: #22c55e;
-      color: #0b1120;
-      padding: 15px 35px;
+      color: #052e16;
+      padding: 15px 38px;
       text-decoration: none;
-      border-radius: 10px;
+      border-radius: 12px;
       font-weight: bold;
-      transition: 0.3s;
+      transition: 0.3s ease;
     }
 
     .cta a:hover {
@@ -50,67 +51,80 @@
     }
 
     section {
-      padding: 70px 20px;
-      max-width: 1000px;
+      padding: 80px 20px;
+      max-width: 1100px;
       margin: auto;
     }
 
     section h2 {
       text-align: center;
-      font-size: 2.2rem;
-      margin-bottom: 40px;
+      font-size: 2.3rem;
+      margin-bottom: 50px;
     }
 
     .services {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 25px;
+      gap: 30px;
     }
 
     .card {
-      background: #111827;
-      padding: 30px;
-      border-radius: 14px;
-      border: 1px solid #1f2933;
+      background: #0f172a;
+      padding: 35px;
+      border-radius: 18px;
+      border: 1px solid #1f2937;
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #22c55e;
+    }
+
+    .icon {
+      width: 42px;
+      height: 42px;
+      margin-bottom: 18px;
+      stroke: #22c55e;
     }
 
     .card h3 {
-      margin-top: 0;
-      margin-bottom: 10px;
-      color: #22c55e;
+      margin: 0 0 10px;
+      color: #e5e7eb;
     }
 
     .card p {
       font-size: 0.95rem;
       color: #cbd5e1;
-      line-height: 1.5;
+      line-height: 1.6;
     }
 
     .about {
       text-align: center;
-      max-width: 800px;
+      max-width: 850px;
       margin: auto;
-      color: #d1d5db;
       font-size: 1.05rem;
-      line-height: 1.7;
+      color: #d1d5db;
+      line-height: 1.8;
     }
 
     footer {
       text-align: center;
-      padding: 35px;
+      padding: 40px;
+      background: #020617;
       color: #94a3b8;
       font-size: 0.85rem;
-      background: #020617;
     }
   </style>
 </head>
+
 <body>
 
 <header>
   <h1>Klyro | Diseño & IA</h1>
   <p>
-    Ayudamos a negocios, marcas pequeñas y emprendimientos a mejorar su imagen visual
-    usando Inteligencia Artificial combinada con criterio humano y estrategia.
+    Impulsamos negocios y emprendimientos con diseño visual
+    creado con Inteligencia Artificial y refinado con criterio humano.
   </p>
   <div class="cta">
     <a href="https://instagram.com/klyro.design_" target="_blank">
@@ -120,56 +134,81 @@
 </header>
 
 <section>
-  <h2>¿Qué hacemos en Klyro?</h2>
+  <h2>Servicios</h2>
 
   <div class="services">
+
+    <!-- Posters -->
     <div class="card">
+      <svg class="icon" fill="none" viewBox="0 0 24 24" stroke-width="1.8">
+        <rect x="4" y="3" width="16" height="18" rx="2"/>
+        <line x1="8" y1="7" x2="16" y2="7"/>
+        <line x1="8" y1="11" x2="16" y2="11"/>
+      </svg>
       <h3>Posters Promocionales</h3>
       <p>
-        Diseños para ofertas, eventos y anuncios que llaman la atención y comunican claro,
+        Diseños claros y llamativos para ofertas, eventos y anuncios,
         listos para imprimir o publicar en redes.
       </p>
     </div>
 
+    <!-- Flyers -->
     <div class="card">
+      <svg class="icon" fill="none" viewBox="0 0 24 24" stroke-width="1.8">
+        <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+        <line x1="8" y1="12" x2="16" y2="12"/>
+        <line x1="8" y1="16" x2="14" y2="16"/>
+      </svg>
       <h3>Flyers Publicitarios</h3>
       <p>
-        Flyers visuales y ordenados para negocios locales que necesitan promocionar rápido
-        sin perder profesionalismo.
+        Flyers funcionales para promociones rápidas,
+        manteniendo una imagen profesional.
       </p>
     </div>
 
+    <!-- Redes -->
     <div class="card">
+      <svg class="icon" fill="none" viewBox="0 0 24 24" stroke-width="1.8">
+        <rect x="3" y="3" width="18" height="18" rx="4"/>
+        <circle cx="8.5" cy="8.5" r="1.5"/>
+        <polyline points="21 15 16 10 5 21"/>
+      </svg>
       <h3>Contenido para Redes</h3>
       <p>
-        Imágenes y posts diseñados para Instagram y Facebook, alineados a la identidad
-        del negocio y pensados para atraer clientes.
+        Contenido visual optimizado para Instagram y Facebook,
+        alineado a la identidad del negocio.
       </p>
     </div>
 
+    <!-- Textos -->
     <div class="card">
-      <h3>Textos Cortos Comerciales</h3>
+      <svg class="icon" fill="none" viewBox="0 0 24 24" stroke-width="1.8">
+        <line x1="4" y1="7" x2="20" y2="7"/>
+        <line x1="4" y1="12" x2="20" y2="12"/>
+        <line x1="4" y1="17" x2="14" y2="17"/>
+      </svg>
+      <h3>Textos Comerciales</h3>
       <p>
-        Frases promocionales y descripciones simples que acompañan el diseño
-        y ayudan a vender sin sonar genérico.
+        Frases promocionales cortas y directas
+        que acompañan el diseño y refuerzan el mensaje.
       </p>
     </div>
+
   </div>
 </section>
 
 <section>
   <div class="about">
     <p>
-      Klyro nace para que los negocios pequeños no se queden atrás.
-      Usamos Inteligencia Artificial para acelerar el proceso creativo,
-      pero cada diseño pasa por un criterio humano para asegurar claridad,
-      estética y coherencia con la marca.
+      En Klyro combinamos tecnología y creatividad para que los negocios pequeños
+      puedan acceder a diseño visual de nivel profesional sin costos elevados.
+      La IA acelera el proceso, el criterio humano garantiza calidad.
     </p>
   </div>
 </section>
 
 <footer>
-  © 2026 Klyro — Diseño & IA para negocios y emprendimientos
+  © 2026 Klyro — Diseño & IA para negocios
 </footer>
 
 </body>
